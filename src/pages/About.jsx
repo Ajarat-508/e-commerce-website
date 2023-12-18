@@ -8,6 +8,14 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 const About = () => {
+  const images = [
+    'img/banner/b1.jpg',
+    'img/banner/ban3.jpg',
+    'img/banner/ban4.jpg',
+    'img/banner/ban5.jpg',
+    'img/banner/backgroundimg.jpeg'
+  
+  ];
   return (
     <div>
       <Navbar />
@@ -15,7 +23,7 @@ const About = () => {
       <PageHeader
         title="#Know More about Us"
         description="Bolam Online Store. Your one stop Shopping mall"
-        backgroundImage="img/banner/b1.jpg"
+        backgroundImages={images}
       />
 
       <section id="about-head" className="section-p1">

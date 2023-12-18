@@ -9,6 +9,7 @@ import Cart from './pages/cart/Cart';
 import Contact from './pages/Contact';
 import Shop2 from './pages/Shopping-page/Shop2';
 import { ShopContextProvider } from './context/shop-context';
+import SingleProduct from './pages/Shopping-page/single-product/SingleProduct';
 
 function App() {
   return (
@@ -18,10 +19,12 @@ function App() {
       <Route path="/" element={<LandingPage />} />
       <Route path="/shop" element={<Shop />} />
       <Route path="/shop2" element={<Shop2 />} />
+      <Route path="/singleproduct" element={<SingleProduct />} />
       <Route path="blog" element={<Blog />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/cart" element={<Cart />} />
+
     </Routes>
     
     </ShopContextProvider>
