@@ -430,7 +430,7 @@ button.white-btn{
 }
 
 #banner3 .banner-box3{
-  background-image: url("/public/img/banner/banner.jpg");
+  background-image: url("/public/img/banner/ban5.jpg");
 }
 
 #banner3 h2{
@@ -613,12 +613,13 @@ footer .copyright{
   padding: 14px;
 }
 
-#page-header h2 p{
-  color: #132099e2;
+#page-header h2, p{
+  color: #fff;
+  font-size: 24px;
 }
 #page-header p{
   color: #000;
-  font-size: 16
+  font-size: 16px
 px;
 }
 #pagination{
@@ -719,7 +720,7 @@ margin-right: 10px;
 }
 
 #page-header.blog-header{
-  background-image: url("/public/img/banner/b19.jpg");
+  background-image: url("/public/img/banner/ban6.jpg");
 }
 
 #page-header.blog-header h2 p{
@@ -800,7 +801,7 @@ margin-right: 40px;
 
 /* About page */
 #page-header .about-header{
-  background-image: url(/public/img/banner/banner.jpg);
+  background-image: url(/public/img/banner/ban5.jpg);
 }
 
 

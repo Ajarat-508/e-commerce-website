@@ -12,8 +12,9 @@ const About = () => {
     'img/banner/b1.jpg',
     'img/banner/ban3.jpg',
     'img/banner/ban4.jpg',
-    'img/banner/ban5.jpg',
-    'img/banner/backgroundimg.jpeg'
+    'https://cdn.hashnode.com/res/hashnode/image/upload/v1702932650228/91f88a39-3406-4ae9-b748-2e7fd8b417e4.jpeg'
+    // https://cdn.hashnode.com/res/hashnode/image/upload/v1702932903783/1f798b1f-a3f0-45d4-8fdd-615c8df395a4.jpeg
+    
   
   ];
   return (
