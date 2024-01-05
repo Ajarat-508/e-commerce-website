@@ -13,19 +13,27 @@ import {
 import Newsletter from "./landing-page/Newsletter";
 import Footer from "../components/Footer";
 const Contact = () => {
+  const images = [
+    // 'https://cdn.hashnode.com/res/hashnode/image/upload/v1704145590244/8b8aec8d-e86a-4ecf-af47-7f655662e939.jpeg',
+    'https://cdn.hashnode.com/res/hashnode/image/upload/v1704145625637/f9a1d3e4-2bcb-4498-8376-0db23284c4d0.jpeg',
+    'https://cdn.hashnode.com/res/hashnode/image/upload/v1704145661589/2034bbc1-f27b-4be2-98c7-fdf2aed1759b.jpeg'
+  
+  
+  ];
   return (
     <>
       <Navbar />
       <PageHeader
         title="#let's talk"
         description="Leave a message for Us. We love to hear your feedbacks."
-        backgroundImage="img/banner/b1.jpg"
+        backgroundImages={images}
+        
       />
 
       <section id="contact-details" className="section-p1">
         <div className="details">
           <span>Get in Touch</span>
-          <h2>Visit one of our agency locations or contact us today</h2>
+          <h2 className="details-h2">Visit one of our agency locations or contact us today</h2>
           <h3>Head Office</h3>
           <div>
             <li>
@@ -62,7 +70,7 @@ const Contact = () => {
       <section id="form-details">
         <form action>
           <span>Leave Us a Message</span>
-          <h2>We love to hear your feedbacks</h2>
+          <h2 className='contact-tag'>We love to hear your feedbacks</h2>
           <input type="text" name id placeholder="Enter Your Name" />
           <input type="email" name id placeholder="Enter Your Email" />
           <input type="text" name id placeholder="Subject" />
@@ -85,7 +93,7 @@ const Contact = () => {
               <span>Ajarat Azeez</span>
               <br /> Front-End Developer
               <br /> Phone: + 23437775311
-              <br /> Email: ajarat@examplegmail.com
+              <br /> Email: ajarat@gmail.com
             </p>
           </div>
           <div className="people-container">
@@ -94,7 +102,7 @@ const Contact = () => {
               <span>Uthman Misbaudeen</span>
               <br /> Senior Marketing Manager
               <br /> Phone: + 23437775311
-              <br /> Email: uthman@examplegmail.com
+              <br /> Email: uthman@gmail.com
             </p>
           </div>
           <div className="people-container">
@@ -102,7 +110,7 @@ const Contact = () => {
             <p>
               <span> Maryam Abdullah</span> <br />
               Senior Logistics Officer <br />
-              Phone: + 23437775311 <br /> Email: maryam@examplegmail.com
+              Phone: + 23437775311 <br /> Email: maryam@gmail.com
             </p>
           </div>
         </div>

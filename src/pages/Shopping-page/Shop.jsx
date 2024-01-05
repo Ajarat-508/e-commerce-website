@@ -9,10 +9,11 @@ import {PRODUCTS} from '../Shopping-page/product'
 import '../Shopping-page/shop.css'
 const Shop = () => {
   const images = [
-    'https://cdn.hashnode.com/res/hashnode/image/upload/v1702933339087/b11e11c5-6e1f-489a-9866-069524383a4e.jpeg',
+    'https://cdn.hashnode.com/res/hashnode/image/upload/v1704147192209/7206dd3c-376b-415b-831a-8a54c619f58a.jpeg',
  
     'https://cdn.hashnode.com/res/hashnode/image/upload/v1702932650228/91f88a39-3406-4ae9-b748-2e7fd8b417e4.jpeg',
-    'https://cdn.hashnode.com/res/hashnode/image/upload/v1702932903783/1f798b1f-a3f0-45d4-8fdd-615c8df395a4.jpeg'
+    'https://cdn.hashnode.com/res/hashnode/image/upload/v1702932903783/1f798b1f-a3f0-45d4-8fdd-615c8df395a4.jpeg',
+    'https://cdn.hashnode.com/res/hashnode/image/upload/v1704147439814/010d79bd-c4fa-408a-b2eb-e332e408f842.jpeg'
     
   
   ];

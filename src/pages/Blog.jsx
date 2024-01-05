@@ -7,7 +7,6 @@ import Footer from '../components/Footer'
 const Blog = () => {
   const images = [
     'https://cdn.hashnode.com/res/hashnode/image/upload/v1702936123768/150aa53a-674c-4b36-9a8a-94951e33f840.jpeg',
-    'https://cdn.hashnode.com/res/hashnode/image/upload/v1702935874145/c684314f-1577-4498-a874-4e4826edf9ca.jpeg',
     'https://cdn.hashnode.com/res/hashnode/image/upload/v1702936087435/22060e03-1968-4352-a7d9-99a19cfb97f9.jpeg',
     'https://cdn.hashnode.com/res/hashnode/image/upload/v1702936268427/be19d8d9-898e-4a9e-94d9-25080013c54e.jpeg'
 

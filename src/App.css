@@ -613,14 +613,16 @@ footer .copyright{
   padding: 14px;
 }
 
-#page-header h2, p{
+ #page-header h2 {
   color: #fff;
   font-size: 24px;
 }
+
+
 #page-header p{
-  color: #000;
+  color: #f18329;
   font-size: 16px
-px;
+
 }
 #pagination{
   text-align: center;
@@ -719,13 +721,13 @@ margin-right: 10px;
   font-size: medium;
 }
 
-#page-header.blog-header{
+/* #page-header.blog-header{
   background-image: url("/public/img/banner/ban6.jpg");
 }
 
 #page-header.blog-header h2 p{
   color: #fff;
-}
+} */
 
 #blog{
   padding: 150px 150px 0 150px;
@@ -804,6 +806,10 @@ margin-right: 40px;
   background-image: url(/public/img/banner/ban5.jpg);
 }
 
+/* #page-header p{
+color: #f3b519;
+} */
+
 
 #about-head{
   display: flex;
@@ -870,7 +876,7 @@ font-weight: 600;
   padding: 20px 0;
 }
 #contact-details form, h2{
-  color: #fff;
+  color: #2B8888;
 
 }
 #contact-details .details h3{
@@ -883,7 +889,7 @@ font-weight: 600;
   display: flex;
   padding: 10px 0;
   list-style: none;
-
+  color: #000;
 }
 
 #contact-details .details li i{
@@ -894,7 +900,7 @@ font-weight: 600;
 #contact-details .details li p{
   margin: 0;
   font-size: 14px;
-  padding-left: 0px;
+  padding-left: 10px;
 }
 
 #contact-details map{
@@ -905,6 +911,10 @@ font-weight: 600;
   width: 100%;
   height: 100%;
 
+}
+#contact-details .details-h2{
+  color: #2B8888;
+  font-size: 1rem;
 }
 
 #form-details{
@@ -971,11 +981,12 @@ margin-left: 32px;
 }
 
 #form-details .people div.people-container p span{
-  display: block;
+  display: inline-block;
   font-size: 16px;
   font-weight: 600;
   color: #2B8888;
 }
+
 
 /* Cart Page */
 #cart{
@@ -1379,13 +1390,17 @@ h1{
   width: 100%;
   margin-bottom: 24px;
 }
-#contact-details form, h2 {
-  color: #1320999a;
+
+
+#contact-details .contact-tag{
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+}
+#contact-details .map{
+ display: none;
 }
 
-#contact-details .map{
-  width: 100%;
-}
 
 #form-details {
   margin: 26px;
@@ -1398,7 +1413,19 @@ h1{
   width: 100%;
   margin-bottom: 30px;
 }
-
+#form-details .people div {
+  
+  margin-left: 0;
+}
+#form-details .people div img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+#form-details .people div.people-container p span {
+  display: inline-block;
+}
 /* Cart Page */
 .cart {
   display: flex;
