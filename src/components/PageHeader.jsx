@@ -40,7 +40,7 @@ const PageHeader = ({ title, description, backgroundImages }) => {
 
   return (
     <section id="page-header" className="about-header" style={headerStyle}>
-      <h2>{title}</h2>
+      <h1>{title}</h1>
       <p>{description}</p>
     </section>
   );
